@@ -1,0 +1,22 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+                             http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+    <!-- Required POM fields -->
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.example</groupId>     <!-- Reverse domain convention -->
+    <artifactId>myapp</artifactId>     <!-- Project/module name -->
+    <version>1.0-SNAPSHOT</version>    <!-- Version number -->
+    <packaging>jar</packaging>         <!-- Could also be war for web apps -->
+
+    <name>MyApp</name>
+    <description>A simple demo project built with Maven</description>
+
+    <!-- Compiler plugin -->
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.11.0</version>

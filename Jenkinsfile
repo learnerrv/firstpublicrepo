@@ -1,9 +1,9 @@
 pipeline {
     agent any
 
-    tools {
-        maven 'Maven3'   // Name must match the Maven installation configured in Jenkins
-    }
+    //tools {
+      //  maven 'Maven3'   // Name must match the Maven installation configured in Jenkins
+    //}
 
     stages {
         stage('Checkout') {
